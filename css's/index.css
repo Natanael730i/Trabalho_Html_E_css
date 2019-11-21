@@ -1,0 +1,27 @@
+a{
+    text-decoration: none;
+}
+img{
+    width: 100%;
+}
+.head li{
+    position: relative;
+    display: inline;
+    padding: 2em;
+    background-color: #0000ff;
+}
+.imagem-carro{
+    padding-top:3.4em;
+}
+#nav{
+    padding-top: 5em;
+}
+#id1{
+    float:right;
+}
+#id2{
+    float: left;
+}
+main{
+    padding: 3.4em 0;
+}

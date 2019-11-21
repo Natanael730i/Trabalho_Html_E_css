@@ -1,0 +1,37 @@
+button{
+    margin-top: 10em;
+    position: absolute;
+    background-color: black;
+    color: aqua;
+    top: 110px;
+    margin: 5em 0;
+    border:none;
+    height: 5em;
+    transition:width 2s, height 2s, width 2s, transform 2s, box-shadow 2s, background-color 2s,transform 2s,margin 2s, color 2s, font-size 2s, text-shadow 2s, top 2s;
+    animation-timing-function: ease-in-out;
+    width: 15em;
+}
+button:hover{
+    text-shadow: .5px .5px;
+    background-color: aqua;
+
+    color: black;
+    position: relative;
+    top:60px;
+    box-shadow:1em 1em 1em ;
+    height: 11em;
+    width: 15em;
+    font-size: 2em;
+    margin: 0.01em;
+}
+.meio{
+    position: relative;
+    top: 210px;
+}
+.meio a{
+    color: black;
+    transition: color 1s ;
+}
+.meio a:hover{
+    color: aqua;
+}
